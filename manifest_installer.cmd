@@ -3,10 +3,10 @@
 @REM https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins
 
 SET ManifestFolderName=manifest
-SET FolderLocation=%USERPROFILE%\%ManifestFolderName%
-@SET FolderLocation=C:\%ManifestFolderName%
-SET computer=%computername%
 SET user=%USERNAME%
+@REM SET FolderLocation=%USERPROFILE%\%ManifestFolderName%
+SET FolderLocation=C:\%ManifestFolderName%_%USERNAME%
+SET computer=%computername%
 SET ShareName=manifest_%user%
 
 REM BatchGotAdmin; https://stackoverflow.com/a/10052222/12858021
@@ -56,7 +56,7 @@ curl.exe --output %FolderLocation%/manifest_brsteam.xml --url https://theangkko.
 ECHO Share folder with Excel network..
 
 @REM Share folder with user
-@net share %ShareName%=%FolderLocation% /grant:%user%,FULL
+@REM net share %ShareName%=%FolderLocation% /grant:%user%,FULL
 
 ECHO Create registry file for Excel..
 
