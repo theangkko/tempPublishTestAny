@@ -3,8 +3,8 @@
 @REM https://docs.microsoft.com/en-us/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins
 
 SET ManifestFolderName=manifest
-@SET FolderLocation=%LOCALAPPDATA%\%ManifestFolderName%
-SET FolderLocation=C:\%ManifestFolderName%
+SET FolderLocation=%USERPROFILE%\%ManifestFolderName%
+@SET FolderLocation=C:\%ManifestFolderName%
 SET computer=%computername%
 SET user=%USERNAME%
 SET ShareName=manifest
