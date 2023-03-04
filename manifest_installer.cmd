@@ -7,7 +7,7 @@ SET FolderLocation=%USERPROFILE%\%ManifestFolderName%
 @SET FolderLocation=C:\%ManifestFolderName%
 SET computer=%computername%
 SET user=%USERNAME%
-SET ShareName=manifest
+SET ShareName=manifest_%user%
 
 REM BatchGotAdmin; https://stackoverflow.com/a/10052222/12858021
 :-------------------------------------
