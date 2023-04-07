@@ -1579,7 +1579,7 @@
         },
         {
             "description": "Get Wet Bulb Temperature_'C with {Dry Temp & Dew Point Temp}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_TDRY_TDEW_P",
             "name": "HAIR_TDRY_TDEW_P",
             "parameters": [
@@ -1605,7 +1605,7 @@
         },
         {
             "description": "Get Wet Bulb Temperature_'C with {Dry Temp & Rel.Humid}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_TWEB_TDRY_RH_P",
             "name": "HAIR_TWEB_TDRY_RH_P",
             "parameters": [
@@ -1631,7 +1631,7 @@
         },
         {
             "description": "Get Vapor Pressure_bara with {Rel.Humid}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_PVAP_RH",
             "name": "HAIR_PVAP_RH",
             "parameters": [
@@ -1652,7 +1652,7 @@
         },
         {
             "description": "Get Vapor Pressure_bara with {Dew Point Temp}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_PVAP_TDEW",
             "name": "HAIR_PVAP_TDEW",
             "parameters": [
@@ -1668,7 +1668,7 @@
         },
         {
             "description": "Get Dry Air Enthalpy_kJ/kg with {Dry Temp}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_HDRY_TDRY",
             "name": "HAIR_HDRY_TDRY",
             "parameters": [
@@ -1684,7 +1684,7 @@
         },
         {
             "description": "Get Dry Air Density_kg/m3 with {Dry Temp}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_RHO_TDRY_P",
             "name": "HAIR_RHO_TDRY_P",
             "parameters": [
@@ -1705,7 +1705,7 @@
         },
         {
             "description": "Get Dry Air Volume_m3/kg with {Dry Temp}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_V_TDRY_P",
             "name": "HAIR_V_TDRY_P",
             "parameters": [
@@ -1726,7 +1726,7 @@
         },
         {
             "description": "Get Saturated (at 100% RH) Vapor Pressure_bara with {Dry Temp}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_PSAT_TDRY",
             "name": "HAIR_PSAT_TDRY",
             "parameters": [
@@ -1742,7 +1742,7 @@
         },
         {
             "description": "Get Humid Air Volume_m3/kg with {Dry Temp & Rel.Humid}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_V_TDRY_RH_P",
             "name": "HAIR_V_TDRY_RH_P",
             "parameters": [
@@ -1768,7 +1768,7 @@
         },
         {
             "description": "Get Humid Air Density_kg/m3 with {Dry Temp & Rel.Humid}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_RHO_TDRY_RH_P",
             "name": "HAIR_RHO_TDRY_RH_P",
             "parameters": [
@@ -1794,7 +1794,7 @@
         },
         {
             "description": "Get Humid Air Enthalpy_kJ/kg with {Dry Temp & Rel.Humid}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_H_TDRY_RH_P",
             "name": "HAIR_H_TDRY_RH_P",
             "parameters": [
@@ -1820,7 +1820,7 @@
         },
         {
             "description": "Get Humidity ratio_kg/kgAir with {Enthalpy & Dry Temp}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_HUMR_H_TDRY",
             "name": "HAIR_HUMR_H_TDRY",
             "parameters": [
@@ -1841,7 +1841,7 @@
         },
         {
             "description": "Get Humidity ratio_kg/kgAir with {Enthalpy & Dry Temp}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_HUMR_PVAP_P",
             "name": "HAIR_HUMR_PVAP_P",
             "parameters": [
@@ -1862,7 +1862,7 @@
         },
         {
             "description": "Get Humidity ratio_kg/kgDA with {Dry Temp & Rel.Humid}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_HUMR_TDRY_RH_P",
             "name": "HAIR_HUMR_TDRY_RH_P",
             "parameters": [
@@ -1888,7 +1888,7 @@
         },
         {
             "description": "*Get Relative Humidity_decimal with {Dry Temp & Humidity Ratio}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_RH_TDRY_HUMR_P",
             "name": "HAIR_RH_TDRY_HUMR_P",
             "parameters": [
@@ -1914,7 +1914,7 @@
         },
         {
             "description": "Get Relative Humidity_decimal with {Dry Temp & Wet Temp}",
-            "helpUrl": "https://brfluid.xyz",
+            "helpUrl": "https://brfluid.xyz/54",
             "id": "HAIR_RH_TDRY_TWEB",
             "name": "HAIR_RH_TDRY_TWEB",
             "parameters": [
